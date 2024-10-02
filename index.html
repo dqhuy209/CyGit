@@ -6,22 +6,28 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="header-box">Header</div>
-    </header>
+    <div class="container">
+      <header>
+        <div class="header-box">Header</div>
+      </header>
 
-    <main>
-      <div class="content-box">
-        <div class="box1">Col 1</div>
-        <div class="box2">Col 2</div>
-      </div>
-    </main>
-    <footer>
-      <div class="footer-box">Footer</div>
-    </footer>
+      <main>
+        <div class="content-box">
+          <div class="box1">box 1</div>
+          <div class="box2">box 2</div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-box">Footer</div>
+      </footer>
+    </div>
     <style>
       * {
         box-sizing: border-box;
+      }
+      .container {
+        width: 1000px;
+        margin: 0 auto;
       }
       .header-box {
         height: 100px;
