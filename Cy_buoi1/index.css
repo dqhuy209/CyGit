@@ -152,6 +152,7 @@ button {
   background-color: #9B51E0;
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 p {
