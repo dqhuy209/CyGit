@@ -54,12 +54,13 @@
 .infor{
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-left: 80px;
 }
 
 .size{
   max-width: 500px;
-  margin-top: 99px;
-  margin-left: 80px;
   font-family: "Unica One", sans-serif;
   
 }
@@ -124,8 +125,7 @@
 }
 .description{
   max-width: 488px;
-  margin-top: 80px;
-  margin-right: 50px;
+   
 }
 .description h3{
   font-size: 20px;
@@ -195,4 +195,13 @@
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.box1{
+  width: 481px;
+  height: 481px;
+  border: 31px solid rgba(242, 153, 74, 1);
+  border-radius: 50%;
+}
+.rectangle{
+
 }
