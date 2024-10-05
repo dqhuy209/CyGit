@@ -5,14 +5,17 @@
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
+
 .main {
   margin: 20px;
 
 }
-.header{
+
+.header {
   display: grid;
   margin: 10px 50px;
   grid-template-columns: 1fr 2fr 1fr;
@@ -20,15 +23,18 @@
   gap: 10px;
   font-family: "Unica One", sans-serif;
 }
-.img-logo{
+
+.img-logo {
   max-width: 236px;
   max-height: 132px;
 }
+
 .nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
+
 .nav ul li {
   text-decoration: none;
   color: #131212;
@@ -36,22 +42,26 @@
   font-weight: 400;
   align-items: center;
 }
-.icon-link{
+
+.icon-link {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: #131212;
   position: relative;
 }
-.icon-link svg{
+
+.icon-link svg {
   margin: 0 15px;
 }
-.icon-link svg:nth-child(3){
+
+.icon-link svg:nth-child(3) {
   position: absolute;
-  top:-10px;
+  top: -10px;
   right: -5px;
 }
-.infor{
+
+.infor {
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
@@ -59,22 +69,25 @@
   margin-left: 80px;
 }
 
-.size{
+.size {
   max-width: 500px;
   font-family: "Unica One", sans-serif;
-  
+
 }
-.size h3{
+
+.size h3 {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 28px;
 }
-.size ul{
+
+.size ul {
   display: flex;
   /* justify-content: space-between; */
 }
-.size ul li{
+
+.size ul li {
   list-style: none;
   font-size: 16px;
   text-align: center;
@@ -86,55 +99,67 @@
   margin-right: 20px;
   font-weight: 600;
 }
-.color{
+
+.color {
   margin-top: 55px;
 }
-.color p{
+
+.color p {
   margin-bottom: 28px;
   font-size: 20px;
   font-weight: 400;
 }
-.color ul li{
+
+.color ul li {
   border-radius: 50%;
   width: 48px;
   height: 48px;
 }
-.color ul li:nth-child(1){
+
+.color ul li:nth-child(1) {
   background-color: #B6A179;
 }
-.color ul li:nth-child(2){
-  
-  background-color:#272425 ;
+
+.color ul li:nth-child(2) {
+
+  background-color: #272425;
 }
-.color ul li:nth-child(3){
-  
-  background-color:#6389CB ;
+
+.color ul li:nth-child(3) {
+
+  background-color: #6389CB;
 }
-.color ul li:nth-child(4){
-  
-  background-color:#F2C758;
+
+.color ul li:nth-child(4) {
+
+  background-color: #F2C758;
 }
-.img-product{
+
+.img-product {
   position: relative;
 }
-.img-product img{
+
+.img-product img {
   position: absolute;
   z-index: -1;
   top: -470px;
   right: 110px;
 }
-.description{
+
+.description {
   max-width: 488px;
-   
+
 }
-.description h3{
+
+.description h3 {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 13px;
   font-family: "Unica One", sans-serif;
 }
-.description h1{
+
+.description h1 {
   font-family: "Unica One", sans-serif;
   font-size: 60px;
   font-weight: 400;
@@ -142,47 +167,55 @@
   margin-bottom: 24px;
 
 }
-.description p{
+
+.description p {
   font-size: 20px;
   font-weight: 500;
   color: #7d7777;
 }
-.social{
+
+.social {
   display: flex;
   justify-content: space-between;
   margin: 64px 80px 0px 80px;
   align-items: center;
 }
-.text-scroll p{
-  font-weight: 400;
+
+.text-scroll p {
+  font-weight: 600;
   font-size: 24px;
   margin-top: 154px;
   margin-left: -45px;
   transform: rotate(-90deg);
   white-space: nowrap;
+  text-transform: uppercase;
 }
-.social-link{
+
+.social-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 154px;
   gap: 24px;
 }
-.control{
+
+.control {
   display: flex;
   margin-top: 152px;
   justify-content: space-around;
   text-align: center;
   font-family: "Unica One", sans-serif;
 }
-.pre_next{
+
+.pre_next {
   display: flex;
   gap: 56px;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
 }
-.play{
+
+.play {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,17 +224,12 @@
   font-weight: 400;
   text-transform: uppercase;
 }
-.price p{
+
+.price {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 28px;
+  padding: 14px;
 }
-.box1{
-  width: 481px;
-  height: 481px;
-  border: 31px solid rgba(242, 153, 74, 1);
-  border-radius: 50%;
-}
-.rectangle{
 
-}
