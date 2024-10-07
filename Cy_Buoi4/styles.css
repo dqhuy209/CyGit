@@ -6,16 +6,18 @@
   padding: 0;
 }
 .container{
-  max-width: 1920px;
+  max-width: 1440px;
   width: 100%;
-  background: white;
   margin: 0 auto;
 }
 .wrapper{
   /* width: 100%; */
-  margin: 80px;
+  margin: 80px ;
 }
 .header{
+  margin: 0 auto;
+  max-width: 1440px;
+  margin: 80px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
@@ -101,4 +103,271 @@ font-family: "Rubik", sans-serif;
   width: 359px;
   height: 329px;
   margin-top: 52px;
+}
+/*  */
+.content-card{
+  margin-top: 180px;
+  margin-left: 75px;
+  font-family: "Rubik", sans-serif;
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-content > p {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+.nav-card ul{
+  display: flex;
+  margin-top: 58px;
+  justify-content: space-between;
+  align-items: center;
+  width: 562px;
+  height: 19px;
+}
+.nav-card ul li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.96px;
+}
+.nav-card ul li:nth-child(1){
+  font-size: 700;
+  color: #8CC5F9;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 261px));
+  gap: 30px;
+  margin-top: 81px;
+  justify-content: center;
+}
+.card-item{
+  font-family: "Rubik", sans-serif;
+  /* width: 261px; */
+  height: 309px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #8CC5F9;
+  border-radius: 5px;
+  grid-column: span 1 / span 1;
+}
+.card-item img{
+  width: 119px;
+  height: 119px;
+}
+.name-card
+{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.07px;
+  color: #8CC5F9;
+  font-style: italic;
+  margin-bottom: -20px;
+}
+.desc-card{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.59px;
+  color: #BDBDBD;
+  font-style: italic;
+}
+.profile{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.59px;
+  color: #BDBDBD;
+}
+
+.text-more{
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  color: #828282;
+  margin-top: 58px;
+}
+.quote{
+  background-color: #FBFBFB;
+  /* width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%); */
+  margin-top: 182px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.quote img{
+  width: 60px;
+  height: 38px;
+}
+.quote p {
+  margin-top: 43px;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 1140px;
+  font-size: 33px;
+  line-height: 39.11px;
+  color: #4F4F4F;
+}
+.text-lorem{
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #BDBDBD;
+}
+
+
+.title-following{
+  font-family: "Rubik", sans-serif;
+font-weight: 500;
+font-size: 35px;
+line-height: 41.48px;
+text-align: center;
+margin-top: 185px;
+}
+.following{
+  margin-top: 121px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+flex-direction: column;
+gap: 150px;
+margin-left: 50px;
+}
+.following-step{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1176.6px;
+}
+.following-step img{
+  width: 131.39px;
+  height: 223.4px;
+}
+.text-following{
+  width: 917px;
+  height: 224px;
+}
+.text-following h3{
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 65.18px;
+  color: #8CC5F9;
+}
+.text-following p{
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 41.48px;
+  color: #4F4F4F;
+  margin-top: 40px;
+}
+.job{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  width: 1140px;
+  height: 233px;
+  transform: translateY(110px);
+}
+.job img{
+  width: 172px;
+  height: 134px;
+
+}
+.text-job{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 421px;
+  height: 115px;
+}
+.text-job h1{
+font-weight: 500;
+font-size: 35px;
+line-height: 45px;
+}
+.text-job p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.job button{
+  width: 250px;
+  height: 85.29px;
+  border: none;
+  border-radius: 10px;
+  background-color: #8CC5F9;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+footer{
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  background: rgba(248, 248, 248, 1);
+  justify-content: space-between;
+  padding: 185px 150px;
+}
+
+footer .footer_brand_logo {
+  font-family: Marko One;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  color: rgba(140, 197, 249, 1);
+}
+
+
+footer .footer_brand_info {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(189, 189, 189, 1);
+  max-width: 400px;
+}
+
+footer .footer_brand p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #AFB5C0;
+
+}
+
+footer .footer_cate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer_cate ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer_cate ul li a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(79, 86, 101, 1);
 }
