@@ -277,7 +277,11 @@ margin-left: 50px;
   font-family: "Rubik", sans-serif;
   width: 1140px;
   height: 233px;
+  margin-top: 110px;
   transform: translateY(110px);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
 }
 .job img{
   width: 172px;
