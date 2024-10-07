@@ -1,40 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-*{
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.container{
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  padding: 80px 80px 0;
 }
-.wrapper{
-  /* width: 100%; */
-  margin: 80px ;
-}
-.header{
-  margin: 0 auto;
-  max-width: 1440px;
-  margin: 80px;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+
+.header {
+  display: flex;
   align-items: center;
-  gap: 150px;
+  justify-content: space-between;
 }
-.logo{
+
+.logo {
   width: 232px;
-  height: 43.91px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 11px;
 }
+
 .logo img {
-  width:56px;
+  width: 56px;
   height: 41.91px;
+  object-fit: cover;
+  overflow: hidden;
 }
+
 .logo p {
   font-family: "Marko One", serif;
   font-weight: 400;
@@ -43,85 +54,97 @@
   padding-bottom: 20px;
   text-transform: uppercase;
 }
-.container-header ul{
+
+.container-header {
   display: flex;
-  font-family: "Rubik", sans-serif;
-  justify-content: space-evenly;
   align-items: center;
+  gap: 42px;
 }
-.container-header ul li{
+
+.container-header a {
   font-size: 16px;
   font-weight: 400;
   list-style: none;
   line-height: 18.96px;
 }
-.container-header ul li:nth-child(1){
+
+.container-header a:nth-child(1) {
   color: #8CC5F9;
   font-weight: 700;
 }
-.icon-header{
+
+.icon-header {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 4px;
 }
+
 .icon-header p {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding-right: 5px;
 }
-.wrapper-content{
-  margin-top: 80px;
+
+.wrapper-content {
+  padding: 80px 70px 0;
 }
-.content{
-display: flex;
-justify-content: space-between;
-font-family: "Rubik", sans-serif;
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
 }
-.description{
+
+.description {
   width: 641px;
-  height: 345px;
-  margin-left: 75px;
 }
-.description h1{
+
+.description h1 {
   font-weight: 700;
   font-size: 50px;
   color: #8CC5F9;
   padding-bottom: 8.23px;
 }
-.text-des{
+
+.text-des {
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
 }
-.text-des span{
+
+.text-des span {
   font-weight: 700;
   color: #8CC5F9;
 }
-.img-about{
-  width: 359px;
+
+.img-about {
+  width: 353px;
   height: 329px;
   margin-top: 52px;
 }
+
 /*  */
-.content-card{
+.content-card {
   margin-top: 180px;
-  margin-left: 75px;
+  /* margin-left: 75px; */
   font-family: "Rubik", sans-serif;
 }
-.header-content{
+
+.header-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.header-content > p {
+
+.header-content>p {
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
 }
-.nav-card ul{
+
+.nav-card ul {
   display: flex;
   margin-top: 58px;
   justify-content: space-between;
@@ -129,25 +152,28 @@ font-family: "Rubik", sans-serif;
   width: 562px;
   height: 19px;
 }
-.nav-card ul li{
+
+.nav-card ul li {
   list-style: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 18.96px;
 }
-.nav-card ul li:nth-child(1){
+
+.nav-card ul li:nth-child(1) {
   font-size: 700;
   color: #8CC5F9;
 }
 
-.card{
+.card {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 261px));
   gap: 30px;
   margin-top: 81px;
   justify-content: center;
 }
-.card-item{
+
+.card-item {
   font-family: "Rubik", sans-serif;
   /* width: 261px; */
   height: 309px;
@@ -159,12 +185,13 @@ font-family: "Rubik", sans-serif;
   border-radius: 5px;
   grid-column: span 1 / span 1;
 }
-.card-item img{
+
+.card-item img {
   width: 119px;
   height: 119px;
 }
-.name-card
-{
+
+.name-card {
   font-weight: 700;
   font-size: 22px;
   line-height: 26.07px;
@@ -172,7 +199,8 @@ font-family: "Rubik", sans-serif;
   font-style: italic;
   margin-bottom: -20px;
 }
-.desc-card{
+
+.desc-card {
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -180,97 +208,112 @@ font-family: "Rubik", sans-serif;
   color: #BDBDBD;
   font-style: italic;
 }
-.profile{
+
+.profile {
   font-weight: 300;
   font-size: 14px;
   line-height: 16.59px;
   color: #BDBDBD;
 }
 
-.text-more{
+.text-more {
   font-weight: 400;
   text-align: center;
   font-size: 22px;
   color: #828282;
   margin-top: 58px;
 }
-.quote{
-  background-color: #FBFBFB;
-  /* width: 100vw;
-    position: relative;
-    left: calc(-50vw + 50%); */
+
+.quote {
+  background-color: gray;
   margin-top: 182px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  gap: 42px;
+  padding: 60px 0;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+
+
 }
-.quote img{
+
+.quote img {
   width: 60px;
   height: 38px;
 }
+
 .quote p {
-  margin-top: 43px;
+  max-width: 1140px;
   font-weight: 400;
   font-style: italic;
-  max-width: 1140px;
   font-size: 33px;
   line-height: 39.11px;
   color: #4F4F4F;
 }
-.text-lorem{
+
+.text-lorem {
   align-self: flex-end;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.33px;
   color: #BDBDBD;
+  align-self: flex-end;
 }
 
 
-.title-following{
+.title-following {
   font-family: "Rubik", sans-serif;
-font-weight: 500;
-font-size: 35px;
-line-height: 41.48px;
-text-align: center;
-margin-top: 185px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41.48px;
+  text-align: center;
+  margin-top: 185px;
 }
-.following{
+
+.following {
   margin-top: 121px;
   font-family: "Rubik", sans-serif;
   display: flex;
-flex-direction: column;
-gap: 150px;
-margin-left: 50px;
+  flex-direction: column;
+  gap: 150px;
+  /* margin-left: 50px; */
 }
-.following-step{
+
+.following-step {
   display: flex;
   justify-content: space-evenly;
   width: 1176.6px;
 }
-.following-step img{
+
+.following-step img {
   width: 131.39px;
   height: 223.4px;
 }
-.text-following{
+
+.text-following {
   width: 917px;
   height: 224px;
 }
-.text-following h3{
+
+.text-following h3 {
   font-weight: 500;
   font-size: 55px;
   line-height: 65.18px;
   color: #8CC5F9;
 }
-.text-following p{
+
+.text-following p {
   font-size: 35px;
   font-weight: 400;
   line-height: 41.48px;
   color: #4F4F4F;
   margin-top: 40px;
 }
-.job{
+
+.job {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -278,34 +321,40 @@ margin-left: 50px;
   width: 1140px;
   height: 233px;
   margin-top: 110px;
-  transform: translateY(110px);
+  transform: translateY(90px);
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #fff;
+  /* z-index: 1; */
 }
-.job img{
+
+.job img {
   width: 172px;
   height: 134px;
 
 }
-.text-job{
+
+.text-job {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 421px;
   height: 115px;
 }
-.text-job h1{
-font-weight: 500;
-font-size: 35px;
-line-height: 45px;
+
+.text-job h1 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
 }
-.text-job p{
+
+.text-job p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
-.job button{
+
+.job button {
   width: 250px;
   height: 85.29px;
   border: none;
@@ -316,12 +365,17 @@ line-height: 45px;
   line-height: 25px;
   color: #FFFFFF;
 }
-footer{
+
+footer {
   display: flex;
   font-family: "Rubik", sans-serif;
   background: rgba(248, 248, 248, 1);
   justify-content: space-between;
   padding: 185px 150px;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  z-index: -1;
 }
 
 footer .footer_brand_logo {
@@ -374,4 +428,87 @@ footer .footer_cate ul li a {
   line-height: 30px;
   text-align: left;
   color: rgba(79, 86, 101, 1);
+}
+
+@media (max-width: 768px) {
+  .header{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  .container-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .icon-header{
+    align-self: flex-end;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-des{
+    font-size: 14px;
+  }
+  .header-content{
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .nav-card ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    width: 100%; 
+    margin-bottom: 50px;
+  }
+
+  .card {
+    grid-template-columns: 261px;
+    gap: 20px; 
+  }
+  .quote{
+    text-align: center;
+  }
+  .following-step {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 30px;
+    width: 100%; 
+  }
+
+  .following-step img {
+    width: 100px;
+    height: auto;
+  }
+
+  .text-following {
+    max-width: 100%; 
+    text-align: center;
+  }
+
+  .text-following h3 {
+    font-size: 40px;
+  }
+
+  .text-following p {
+    font-size: 25px;
+    text-align: center; 
+  }
+  .job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+  footer{
+    gap: 20px;
+  }
+
 }
