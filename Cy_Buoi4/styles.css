@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1920px;
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+}
+.wrapper{
+  /* width: 100%; */
+  margin: 80px;
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 150px;
+}
+.logo{
+  width: 232px;
+  height: 43.91px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+.logo img {
+  width:56px;
+  height: 41.91px;
+}
+.logo p {
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #8CC5F9;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.container-header ul{
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-header ul li{
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  line-height: 18.96px;
+}
+.container-header ul li:nth-child(1){
+  color: #8CC5F9;
+  font-weight: 700;
+}
+.icon-header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+.icon-header p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 5px;
+}
+.wrapper-content{
+  margin-top: 80px;
+}
+.content{
+display: flex;
+justify-content: space-between;
+font-family: "Rubik", sans-serif;
+}
+.description{
+  width: 641px;
+  height: 345px;
+  margin-left: 75px;
+}
+.description h1{
+  font-weight: 700;
+  font-size: 50px;
+  color: #8CC5F9;
+  padding-bottom: 8.23px;
+}
+.text-des{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+.text-des span{
+  font-weight: 700;
+  color: #8CC5F9;
+}
+.img-about{
+  width: 359px;
+  height: 329px;
+  margin-top: 52px;
+}
